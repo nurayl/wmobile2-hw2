@@ -1,0 +1,17 @@
+create database homework_database;
+
+create table site_users (
+id serial,
+email varchar(55),
+password varchar(255),
+firstname varchar(255),
+surname varchar(255),
+age varchar(11),
+gender varchar(15),
+course_name text
+);
+
+create table site_courses (
+id serial,
+name varchar(255)
+);
